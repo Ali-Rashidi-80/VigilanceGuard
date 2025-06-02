@@ -1,0 +1,31 @@
+opencv-python>=4.5.5
+mediapipe>=0.8.9
+pygame>=2.1.2
+numpy>=1.21.6
+arabic-reshaper>=2.1.3
+python-bidi>=0.4.2
+PyQt6>=6.2.3
+jdatetime>=4.1.0
+Pillow>=9.0.1
+
+
+
+
+drowsiness_detection/
+├── main.py
+├── src/
+│   ├── __init__.py
+│   ├── app.py
+│   ├── settings.py
+│   ├── frame_processor.py
+│   ├── alert_handler.py
+│   ├── utils.py
+│   ├── constants.py
+├── assets/
+│   ├── BNazanin.ttf
+│   ├── arial.ttf
+│   ├── Enrique Iglesias & Pitbull - Move To Miami.mp3
+├── alerts/
+│   ├── alerts_log.json
+│   ├── alert_*.mp4
+├── requirements.txt
